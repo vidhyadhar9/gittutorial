@@ -16,3 +16,14 @@ app.get('/',function(req,res){
 app.get('/about',function(req,res){
     return res.send("About page ");
 });
+
+app.get('/', function(req, res){
+  res.send("replying you hitted featrue branch");
+});
+
+
+//content in the feature/client
+
+app.get('/feature', function(req, res){
+  res.send("replying you hitted featrue branch");
+});
