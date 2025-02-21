@@ -7,5 +7,5 @@ app.listen(3000, function(){
 
 
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.send("replying you hitted featrue branch");
 });
