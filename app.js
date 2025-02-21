@@ -6,6 +6,17 @@ app.listen(3000, function(){
 });
 
 
+//conetnt in the apis page
+// app.use(express.json())
+
+app.get('/',function(req,res){
+    return res.send("Hoem page ");
+});
+
+app.get('/about',function(req,res){
+    return res.send("About page ");
+});
+
 app.get('/', function(req, res){
   res.send("replying you hitted featrue branch");
 });
