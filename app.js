@@ -9,3 +9,10 @@ app.listen(3000, function(){
 app.get('/', function(req, res){
   res.send("replying you hitted featrue branch");
 });
+
+
+//content in the feature/client
+
+app.get('/feature', function(req, res){
+  res.send("replying you hitted featrue branch");
+});
